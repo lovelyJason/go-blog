@@ -24,6 +24,7 @@ func Date(format string) string {
 // 给HTML这个变量添加了GetIndex方法
 func (*HTMLApi) GetIndex(w http.ResponseWriter, r *http.Request) {
 	//w.Header().Set("Content-Type", "application/html")
+	//indexTemplate := common.Template.Index
 	t := template.New("index.html")
 	path := config.Cfg.System.CurrentDir
 

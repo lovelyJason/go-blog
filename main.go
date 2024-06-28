@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"go-blog/common"
 	"go-blog/router"
 	"log"
 	"net/http"
@@ -20,6 +21,10 @@ func getIndex(w http.ResponseWriter, r *http.Request) {
 	}
 	jsonStr, _ := json.Marshal(indexData)
 	w.Write(jsonStr)
+}
+
+func init() {
+	common.LoadTemplate()
 }
 
 func main() {
