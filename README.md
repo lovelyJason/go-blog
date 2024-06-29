@@ -3,7 +3,7 @@
 ## 架构图
 这也是一个MVC架构，api目录类似于controller层，通过router分发不同路由，然后在controller层这里调用service层，service层再调用dao层，dao层中进行数据库的操作。对于渲染页面的操作， views对应了MVC中的V，用来渲染页面，models是数据模型，定义了字段类型，以及和数据库字段的映射关系
 
-如果你使用过nodejs框架nest.js，会发现这两者有略微的差别，nestjs中没有显式的router区进行路由分发，而是在controller层中根据装饰器定义路由，如
+如果你使用过nodejs框架nest.js，会发现这两者有略微的差别，nestjs中没有显式的用router来进行路由分发，而是在controller层中根据装饰器定义路由，如
 
 ```ts
   @Get('users')
