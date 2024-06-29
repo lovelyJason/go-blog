@@ -1,7 +1,7 @@
 # go-blog
 
 ## 架构图
-这也是一个MVC架构，api目录类似于controller层，通过router分发不同路由，然后在controller层这里调用service层，service层再调用dao层，dao层中进行数据库的操作。models是数据模型
+这也是一个MVC架构，api目录类似于controller层，通过router分发不同路由，然后在controller层这里调用service层，service层再调用dao层，dao层中进行数据库的操作。对于渲染页面的操作， views对应了MVC中的V，用来渲染页面，models是数据模型，定义了字段类型，以及和数据库字段的映射关系
 
 ```
 +------------------+
