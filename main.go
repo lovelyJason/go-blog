@@ -28,6 +28,8 @@ func init() {
 }
 
 func main() {
+	log.Println("Server is starting on http://localhost:5174")
+
 	server := http.Server{
 		Addr: "127.0.0.1:5174",
 	}
