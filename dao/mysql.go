@@ -3,11 +3,12 @@ package dao
 import (
 	"database/sql"
 	"fmt"
-	_ "github.com/go-sql-driver/mysql" // 注意，这里必须要有
 	"log"
 	"net/url"
 	"os"
 	"time"
+
+	_ "github.com/go-sql-driver/mysql" // 注意，这里必须要有
 )
 
 type MyDB struct {

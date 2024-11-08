@@ -79,3 +79,15 @@
 +------------------+
 
 ```
+
+## 运行
+
+```bash
+export DB_USER=你的mysql用户名
+export DB_PASSWORD=你的mysql密码
+export DB_HOST=你的mysql服务器地址
+export DB_PORT=你的mysql端口
+export DB_NAME=你的mysql数据库名
+
+go run main.go
+```
