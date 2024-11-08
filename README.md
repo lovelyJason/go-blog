@@ -107,3 +107,10 @@ export DB_NAME=你的mysql数据库名
 
 go run main.go
 ```
+
+![image](https://github.com/user-attachments/assets/a752fafd-ca45-49af-a2d5-b02b25fe06e2)
+
+然后打开http://localhost:5174
+
+![image](https://github.com/user-attachments/assets/71922126-4334-4bf8-ad62-8813b0de3db9)
+
